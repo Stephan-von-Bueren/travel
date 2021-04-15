@@ -1,0 +1,9 @@
+<edmx:Edmx xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx" Version="4.0">
+    <edmx:Reference Uri="/sap/opu/odata/sap/ZUI_RAP_TRAVEL_O2_VOSTA/$metadata">
+        <edmx:Include Namespace="cds_zui_rap_travel_vosta"/>
+    </edmx:Reference>
+    <edmx:DataServices>
+        <Schema xmlns="http://docs.oasis-open.org/odata/ns/edm" Namespace="vosta">
+        </Schema>
+    </edmx:DataServices>
+</edmx:Edmx>

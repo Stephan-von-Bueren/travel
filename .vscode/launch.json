@@ -1,0 +1,27 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run ztravel1",
+      "type": "node",
+      "request": "launch",
+      "runtimeExecutable": "npm",
+      "cwd": "${workspaceFolder}",
+      "windows": {
+        "runtimeExecutable": "npm.cmd"
+      },
+      "runtimeArgs": [
+        "run-script",
+        "start"
+      ],
+      "env": {
+        "DEBUG": "--inspect",
+        "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/ztravel1\"}"
+      },
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "noDebug": true,
+      "port": 9229
+    }
+  ]
+}
